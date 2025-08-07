@@ -1,0 +1,2 @@
+writing in the file
+non exist by creating with write function

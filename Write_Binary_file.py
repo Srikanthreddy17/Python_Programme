@@ -1,0 +1,10 @@
+import pickle
+books = [
+    {'title': 'To Kill a Mockingbird', 'author': 'Harper Lee', 'year': 1960},
+    {'title': '1984', 'author': 'George Orwell', 'year': 1949},
+    {'title': 'The Great Gatsby', 'author': 'F. Scott Fitzgerald', 'year': 1925},
+    {'title': 'Pride and Prejudice', 'author': 'Jane Austen', 'year': 1813},
+]
+#open a file in binary write mode and save the list of books
+with open("books.dat", "wb") as file:
+    pickle.dump(books, file)
