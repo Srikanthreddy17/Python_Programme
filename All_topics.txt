@@ -1,0 +1,8 @@
+18-08-2025
+Exception:
+try:
+    block
+except exception [as name]:
+    block
+finally:
+    block
