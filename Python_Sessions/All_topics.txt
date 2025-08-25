@@ -1,0 +1,15 @@
+18-08-2025
+Exception:
+try:
+    block
+except exception [as name]:
+    block
+finally:
+    block
+
+virtual envinorment
+- python -m venv venv
+- venv\Scripts\activate
+- pip freeze
+- pip install numpy pandas matplotlib seaborn plotly streamlit
+- python.exe -m pip install --upgrade pip
